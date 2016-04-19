@@ -20,10 +20,10 @@ hr.light {
 
 a {
     @include transition-all;
-    color: $theme-primary;
+    color: #FFB664;
     &:hover,
     &:focus {
-        color: darken($theme-primary, 10%);
+        color: #fff;
     }
 }
 
@@ -157,7 +157,6 @@ header {
     min-height: 610px;
     background-repeat: no-repeat;
     background-position: center top;
-
     text-align: center;
     color: white;
     .header-content {
