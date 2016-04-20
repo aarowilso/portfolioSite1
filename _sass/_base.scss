@@ -80,14 +80,14 @@ header {
     position: relative;
     background-image: url('../img/header.jpg');
     background-size: auto 610px;
-    min-height: 610px;
+    height: 610px;
     background-repeat: no-repeat;
     background-position: center top;
     text-align: center;
     .header-content {
         position: relative;
         text-align: center;
-        padding: 83px 30px 77px;
+        padding: 103px 30px 77px;
         width: 100%;
         .header-content-inner {
             h1 {
@@ -101,12 +101,11 @@ header {
                 margin-bottom: 10px;
             }
             .header-cta {
-                margin-top: 30px;
+                margin-top: 50px;
             }
         }
     }
     @media (min-width: 768px) {
-        min-height: 100%;
         .header-content {
             position: absolute;
             top: 50%;
@@ -135,9 +134,16 @@ header {
     margin-top: 0;
 }
 
-.divider {
+.strip {
     background-color: white;
     height: 100px;
+    .stripText {
+        padding-top: 30px;
+        text-align: center;
+        color: #389FCC;
+        @include sans-serif-font;
+        font-weight: 700;
+    }
 }
 
 .project {
@@ -145,8 +151,17 @@ header {
         padding-left: 40px;
     }
     background-repeat: no-repeat;
-    background-size: 292px 533px;
+    background-size: 0px 0px;
     background-position: left bottom;
+    
+    
+    @media (min-width: 768px) {
+     background-size: 292px 533px;
+     padding-left: 50px;
+     // .container {
+     //    max-width: 80%;
+     // }
+ }
 }
 
 .channels {
@@ -156,14 +171,17 @@ header {
 
 .sparta {
     background-color: #2d2d2d;
+    background-image: url('../img/featuredScreenshot.png');
 }
 
 .glove {
     background-color: #4CE5BF;
+    background-image: url('../img/featuredScreenshot.png');
 }
 
 .myregistry {
     background-color: #ED7233;
+    background-image: url('../img/featuredScreenshot.png');
 }
 
 // Bootstrap Overrides
