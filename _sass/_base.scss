@@ -148,44 +148,51 @@ header {
 }
 
 .project {
+    height: 610px;
+    position: relative;
+    z-index: 0;
+    .logoAndText {
+         margin-top: 30px;
+    }
     .logo {
         padding-left: 40px;
+        padding-bottom: 20px;
     }
-    // background-repeat: no-repeat;
-    // background-size: 0px 0px;
-    // background-position: left bottom;
+    .screenshot {
+        display: none;
+    }
     
     
-    @media (min-width: 768px) {
+    @media (min-width: 900px) {
         .screenshot {
-            float: left;
+           display: block;
+           position: absolute;
+           left: -100px;
+           top: -20px; 
+           z-index: -1;
      }
-     // background-size: 292px 533px;
-     // padding-left: 50px;
-     // .container {
-     //    max-width: 80%;
-     // }
+
+     .logoAndText {
+        margin-left: 200px;
+        max-width: 1000px;
+     }
  }
 }
 
 .channels {
     background-color: #F89922;
-    //background-image: url('../img/featuredScreenshot.png');
 }
 
 .sparta {
     background-color: #2d2d2d;
-   // background-image: url('../img/featuredScreenshot.png');
 }
 
 .glove {
     background-color: #4CE5BF;
-   // background-image: url('../img/featuredScreenshot.png');
 }
 
 .myregistry {
     background-color: #ED7233;
-   // background-image: url('../img/featuredScreenshot.png');
 }
 
 // Bootstrap Overrides
