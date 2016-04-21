@@ -4,13 +4,46 @@
 {% include head.html %}
 
 <body id="page-top">
-  {% include header.html %}
-  {% include divider.html %}
-  {% include project.html projectClass='channels'%}
-  {% include project.html projectClass='sparta'%}
-  {% include project.html projectClass='glove'%}
-  {% include project.html projectClass='myregistry'%}
-  {% include scripts.html %}
+	{% include header.html %}
+	{% include divider.html %}
+	
+	<!-- Channels -->
+	{% include project.html 
+	projectClass='channels'
+	logo = site.data.resources.channelsLogo
+	title = site.data.resources.channelsTitle
+	description=site.data.resources.channelsDescription 
+	screenshot = site.data.resources.channelsScreenshot
+	%}
+	
+	<!-- Sparta -->
+	{% include project.html 
+	projectClass='sparta'
+	logo = site.data.resources.spartaLogo
+	title = site.data.resources.spartaTitle
+	description=site.data.resources.spartaDescription 
+	screenshot = site.data.resources.spartaScreenshot
+	%}
+	
+	<!-- Glove -->
+	{% include project.html 
+	projectClass='glove'
+	logo = site.data.resources.gloveLogo
+	title = site.data.resources.gloveTitle
+	description=site.data.resources.gloveDescription 
+	screenshot = site.data.resources.gloveScreenshot
+	%}
+	
+	<!-- MyRegistry -->
+	{% include project.html 
+	projectClass='myregistry'
+	logo = site.data.resources.myregistryLogo
+	title = site.data.resources.myregistryTitle
+	description=site.data.resources.myregistryDescription 
+	screenshot = site.data.resources.myregistryScreenshot
+	%}
+	
+	{% include scripts.html %}
 </body>
 
 </html>
