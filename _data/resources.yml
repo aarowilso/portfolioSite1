@@ -1,26 +1,30 @@
 #-------------------------------
-# General Site Settings
+# Content for Site
 
 channelsTitle: Channels
 channelsDescription: >
   We designed Channels to add to the value of Audible membership, similar to the way that streaming videos adds to the value of Prime Membership. Channels recently launched to Audible’s millions of users.
 channelsScreenshot: 'channelsScreenshot.png'
 channelsLogo: 'audibleLogo.png'
+channelsLink: http://audible.com/channels
 
 spartaTitle: Project Sparta
 spartaDescription: >
   Along with two great designers, I started a 20% time project to completely redesign the Audible experience from the ground up. We presented our work to the VPs of the company and much of it is now being implemented.
 spartaScreenshot: 'spartaScreenshot.png'
 spartaLogo: 'audibleLogo.png'
+spartaLink: http://audible.com
 
 gloveTitle: Glove App
 gloveDescription: >
   Glove is an app I designed for Tawkon, a startup in Tel Aviv doing cool things. We designed it over the course of 3 months and launched it in the Fall. It is currently powering Glove’s other apps that collect network data.
 gloveScreenshot: 'gloveScreenshot.png'
 gloveLogo: 'gloveLogo.png'
+gloveLink: http://glove-app.com
 
 myregistryTitle: Full Redesign
 myregistryDescription: >
   MyRegistry is the top universal gift registry site with over 100M gifts added to date. As Director of User Experience, I led a year-long redesign of the service accross desktop and mobile, doubling number of users.
 myregistryScreenshot: 'myregistryScreenshot.png'
 myregistryLogo: 'myregistryLogo.png'
+myregistryLink: http://myregistry.com

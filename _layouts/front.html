@@ -12,8 +12,9 @@
 	projectClass='channels'
 	logo = site.data.resources.channelsLogo
 	title = site.data.resources.channelsTitle
-	description=site.data.resources.channelsDescription 
+	description = site.data.resources.channelsDescription 
 	screenshot = site.data.resources.channelsScreenshot
+	link = site.data.resources.channelsLink
 	%}
 	
 	<!-- Sparta -->
@@ -23,6 +24,7 @@
 	title = site.data.resources.spartaTitle
 	description=site.data.resources.spartaDescription 
 	screenshot = site.data.resources.spartaScreenshot
+	link = site.data.resources.spartaLink
 	%}
 	
 	<!-- Glove -->
@@ -32,6 +34,7 @@
 	title = site.data.resources.gloveTitle
 	description=site.data.resources.gloveDescription 
 	screenshot = site.data.resources.gloveScreenshot
+	link = site.data.resources.gloveLink
 	%}
 	
 	<!-- MyRegistry -->
@@ -41,8 +44,11 @@
 	title = site.data.resources.myregistryTitle
 	description=site.data.resources.myregistryDescription 
 	screenshot = site.data.resources.myregistryScreenshot
+	link = site.data.resources.myregistryLink
 	%}
-	
+
+	{% include footer.html %}
+
 	{% include scripts.html %}
 </body>
 

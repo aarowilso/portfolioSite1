@@ -195,6 +195,20 @@ header {
     background-color: #ED7233;
 }
 
+.footer {
+    background-color: #389FCC;
+    height: 396px;
+    text-align: center;
+    .footerText {
+        padding-top: 100px;
+        @include serif-font;
+    }
+    .resumeText {
+        padding-top: 80px;
+    }
+    
+}
+
 // Bootstrap Overrides
 .text-primary {
     color: $theme-primary;
