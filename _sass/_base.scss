@@ -71,10 +71,10 @@ aside {
     padding: 0;
 }
 
-// Navigation
 
 // Homepage Header
 
+//everything smaller than 768px gets this
 header {
     -webkit-text-size-adjust: 100%;
     position: relative;
@@ -93,7 +93,7 @@ header {
             h1 {
                 font-weight: 700;
                 letter-spacing: -2px;
-                margin-top: 0;
+                margin-top: 0px;
                 margin-bottom: 30px;
             }
             p {
@@ -105,6 +105,8 @@ header {
             }
         }
     }
+
+    //everything bigger than 768px gets this
     @media (min-width: 768px) {
         .header-content {
             position: absolute;
@@ -126,6 +128,16 @@ header {
             }
         }
     }
+
+    //everything smaller than 400px gets this
+    @media (max-width: 400px) {
+       .header-content-inner {
+        margin-top: -40px;
+        p {
+            font-size: 18px;
+        }
+       }
+    }
 }
 
 // Sections
@@ -136,9 +148,9 @@ header {
 
 .strip {
     background-color: white;
-    height: 100px;
+    height: 60px;
     .stripText {
-        padding-top: 30px;
+        padding-top: 15px;
         text-align: center;
         color: #389FCC;
         @include sans-serif-font;
@@ -155,7 +167,7 @@ header {
          margin-top: 30px;
     }
     .logo {
-        padding-left: 40px;
+        padding-left: 20px;
         padding-bottom: 20px;
     }
     .screenshot {
@@ -193,6 +205,9 @@ header {
 
 .myregistry {
     background-color: #ED7233;
+    .screenshot {
+        left: -375px;
+    }
 }
 
 .footer {
