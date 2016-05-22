@@ -38,7 +38,6 @@ h6 {
 }
 
 p {
-    font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
     color: white;
@@ -81,8 +80,9 @@ header {
     background-image: url('../img/header.jpg');
     background-size: auto 610px;
     height: 610px;
+    background-color: #389FCC;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: left center;
     text-align: center;
     .header-content {
         position: relative;
