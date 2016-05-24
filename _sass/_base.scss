@@ -199,6 +199,17 @@ header {
     background-color: #2d2d2d;
 }
 
+.paragraph {
+    background-color: #FFB800;
+     .screenshot {
+        left: -360px;
+        padding-top: 20px;
+    }
+    .descriptionText {
+        margin-left: 10px;
+    }
+}
+
 .glove {
     background-color: #4CE5BF;
 }
@@ -206,7 +217,11 @@ header {
 .myregistry {
     background-color: #ED7233;
     .screenshot {
-        left: -375px;
+        left: -360px;
+        padding-top: 20px;
+    }
+    .descriptionText {
+        margin-left: 10px;
     }
 }
 

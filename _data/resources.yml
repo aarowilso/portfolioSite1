@@ -15,6 +15,13 @@ spartaScreenshot: 'spartaScreenshot.png'
 spartaLogo: 'audibleLogo.png'
 spartaLink: http://about.audible.com
 
+paragraphTitle: Paragraph Club
+paragraphDescription: >
+   Paragraph Club is a side project I started to help friends do a better job of keeping in touch. Every two weeks you get a letter from a friend about their life and thoughts. I recruited friends at Amazon, Medium, and Quartz to design and build the beta with me.
+paragraphScreenshot: 'paragraphScreenshot.png'
+paragraphLogo: 'paragraphLogo.png'
+paragraphLink: http://paragraph.club
+
 gloveTitle: Glove for Android
 gloveDescription: >
   I joined the CrowdX team in Tel Aviv for three months to design Glove, an app to help people find their best wireless carrier based on where they use their phone. We designed the app that summer and launched later that year. Glove helped CrowdX grow to the point that the team just had a very successful exit.
